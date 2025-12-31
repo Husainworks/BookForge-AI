@@ -1,0 +1,18 @@
+@theme {
+  --primary-font: "Inter 18pt";
+  --breakpoint-3xl: 1920px;
+  --color-primary: #ff9324;
+
+  --header-height: 64px;
+}
+
+@layer base {
+  html {
+    font-family: var(--primary-font), sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #fcfbfc;
+  }
+}
